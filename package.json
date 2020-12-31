@@ -1,0 +1,15 @@
+{
+  "name": "dbfz-web-ver1",
+  "version": "1.0.0",
+  "description": "This deploys the website with DBFZ information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sun Gyu Park",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  }
+}
