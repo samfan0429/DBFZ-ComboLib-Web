@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <meta name = "viewport" content ="width=device-width", initial-scale="1.0">
+        <title>DBFZ-Combo-Lib</title>
+        
+        <link rel="stylesheet", type="text/css", href="/style/common.css" />
+        <link rel="stylesheet", type="text/css", href="/style/comboWriter.css" />
+
+    </head>
+
+    <body>
+        <div class="master">
+            <a href="/views/index.html">
+                <img class ="resizer" src="/images/header.png" alt="NOT FOUND">
+            </a>
+            <nav>
+                <ul>
+                    <li><a href = "/views/index.html">Home</a></li>
+                    <li><a href = "/views/about.html">About</a></li>
+                    <li><a href = "/views/guide.html">Guide</a></li>
+                    <li>
+                        <a href = "/views/comboPost.html">Combos</a>
+                    </li>
+                    <li><a href = "https://twitter.com/bandainamcous">Twitter</a></li>
+                </ul>
+            </nav>
+
+            <div class="container">
+
+                <h1 style="text-align: center;">Find or Write Combos</h1>
+                <div class="wrapper">
+                    <div class="box" style="margin-left: 100px;">
+                        <label for="keyInput">Enter Your Input:</label>
+                        <input type="text" id="keyInput" name="input"> <br>
+                        <input type="submit" id="input-add" value="Add Move"></input>
+                    </div>
+                    <div class="box" style="margin-left: 200px;">
+                        <label for="output">Your Combo:</label>
+                        <div id="output" style="margin:6px 0;font-size: 16px;">
+                             MONKEY! </div>
+                    </div>
+                </div> <br>
+                <div class="wrapper">
+                    <div class="box" id="moves" style ="margin-left: 100px;">
+                        <select>
+                            <option value="0">Select Move</option>
+                            <option value="1">ATTACK 1</option>
+                            <option value="2">ATTACK 2</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</html>

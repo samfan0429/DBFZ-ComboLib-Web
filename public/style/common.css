@@ -1,3 +1,12 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+p{
+    text-align: center;
+}
+
 body {
     background-color: black;
     font-family: Arial;
@@ -6,6 +15,7 @@ body {
 
 h1 {
     color: white;
+    margin-bottom: 20px;
 }
 
 .master{
@@ -13,14 +23,6 @@ h1 {
     height: 1000px;
     /* background-color: gray; */
 }
-
-/* .header{
-    width:1000px;
-    height:fit-content;
-    display:block;
-    background-color:gray;
-    text-align: center;
-} */
 
 .resizer{
     margin-left: auto;
@@ -39,8 +41,8 @@ nav{
 
 nav ul{
     height: 50px;
-    width: 500px;
-    margin: 0 auto;
+    width: 600px;
+    margin: 0 0;
 }
 
 nav ul li{
@@ -66,13 +68,11 @@ li>a:hover{
 }
 
 .container{
+    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
-    width:900px;
-}
-
-.page-content{
-    float: left;
-    width: fit-content;
     height: fit-content;
+    width:900px;
+    background-color: rgb(243, 157, 18);
+    /* float: left; */
 }

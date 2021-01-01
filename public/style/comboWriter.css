@@ -1,0 +1,44 @@
+.wrapper{
+    font-weight: bold;
+    width:100%;
+    flex-direction: row;
+    position:relative;
+    display:flex;
+}
+
+input[type="text"]{
+    font-size: 16px;
+    width:200px;
+    border: 2px solid #aaa;
+    border-radius:2px;
+    padding:0px;
+    margin:3px 0;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus{
+    border-color:dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+input[type="submit"]{
+    height : 40px;
+    width:70px;
+    margin:3px 0;
+}
+
+
+label {
+    display: block;
+    font-size:16px;
+    font: arial;
+}
+
+.box{
+    /* margin-left:100px; */
+    display: inline-block;
+}
+
+h1{
+    font-size: 50px;
+}
