@@ -1,13 +1,14 @@
-* {
+/* * {
     margin:0;
     padding:0;
-}
+} */
 
 p{
     text-align: center;
 }
 
 body {
+    margin:0;
     background-color: black;
     font-family: Arial;
     color: white;
@@ -15,7 +16,9 @@ body {
 
 h1 {
     color: white;
+    margin-top: 0;
     margin-bottom: 20px;
+    font-size: 40px;
 }
 
 .master{
@@ -40,6 +43,9 @@ nav{
 }
 
 nav ul{
+    margin:0;
+    padding:0;
+    margin-bottom: 3px;
     height: 50px;
     width: 600px;
     margin: 0 0;
@@ -68,7 +74,7 @@ li>a:hover{
 }
 
 .container{
-    margin-top: 5px;
+    margin-top: 8px;
     margin-left: auto;
     margin-right: auto;
     height: fit-content;

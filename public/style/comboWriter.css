@@ -1,9 +1,16 @@
 .wrapper{
-    font-weight: bold;
-    width:100%;
-    flex-direction: row;
-    position:relative;
+    height: fit-content;
     display:flex;
+}
+
+.left{
+    height:fit-content;
+    width:50%;
+}
+
+.right{
+    height:fit-content;
+    width: 50%;
 }
 
 input[type="text"]{
@@ -22,8 +29,9 @@ input[type="text"]:focus{
 }
 
 input[type="submit"]{
+    text-align: center;
     height : 40px;
-    width:70px;
+    width:80px;
     margin:3px 0;
 }
 
@@ -35,10 +43,21 @@ label {
 }
 
 .box{
-    /* margin-left:100px; */
-    display: inline-block;
+    margin-left: 100px;
+    width: fit-content;
+    height: fit-content;
 }
 
-h1{
-    font-size: 50px;
+#chara{
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    background-color: coral;
+}
+
+#chara img{
+    width:67px;
+    height:38px;
 }

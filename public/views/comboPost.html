@@ -4,10 +4,10 @@
         <meta charset ="UTF-8">
         <meta name = "viewport" content ="width=device-width", initial-scale="1.0">
         <title>DBFZ-Combo-Lib</title>
-        
+    
         <link rel="stylesheet", type="text/css", href="/style/common.css" />
         <link rel="stylesheet", type="text/css", href="/style/comboWriter.css" />
-
+        <script type="text/javascript" src="/script/comboPost.js"></script>
     </head>
 
     <body>
@@ -23,35 +23,77 @@
                     <li>
                         <a href = "/views/comboPost.html">Combos</a>
                     </li>
-                    <li><a href = "https://twitter.com/bandainamcous">Twitter</a></li>
+                    <li><a href = "https://twitter.com/bandainamcous" target="_blank">Twitter</a></li>
                 </ul>
             </nav>
 
             <div class="container">
-
+                
                 <h1 style="text-align: center;">Find or Write Combos</h1>
-                <div class="wrapper">
-                    <div class="box" style="margin-left: 100px;">
-                        <label for="keyInput">Enter Your Input:</label>
-                        <input type="text" id="keyInput" name="input"> <br>
-                        <input type="submit" id="input-add" value="Add Move"></input>
-                    </div>
-                    <div class="box" style="margin-left: 200px;">
-                        <label for="output">Your Combo:</label>
-                        <div id="output" style="margin:6px 0;font-size: 16px;">
-                             MONKEY! </div>
-                    </div>
-                </div> <br>
-                <div class="wrapper">
-                    <div class="box" id="moves" style ="margin-left: 100px;">
-                        <select>
-                            <option value="0">Select Move</option>
-                            <option value="1">ATTACK 1</option>
-                            <option value="2">ATTACK 2</option>
-                        </select>
-                    </div>
+                
+                <div id="chara" style="width: fit-content;height: fit-content;">
+                    <img src="/images/characters/ui.png">
+                    <img src="/images/characters/bardock.png">
+                    <img src="/images/characters/black.png">
+                    <img src="/images/characters/broly.png">
+                    <br>
+                    <img src="/images/characters/brolys.png">
+                    <img src="/images/characters/eighteen.png">
+                    <img src="/images/characters/frieza.png">
+                    <img src="/images/characters/ginyu.png">
                 </div>
-            </div>
+
+                <div class="wrapper">
+                    <div class="left">
+                        <div class="box">
+                            <label for="keyInput">Enter Your Input:</label>
+                            <input type="text" id="keyInput" name="input"> <br>
+                            <input type="submit" id="input-add" value="Add Move"></input>
+                        </div>
+
+                        <div class="box">
+                            <label style="margin-top: 20px" for="moves">Move Shortcut:</label>
+                            <select id="moves">
+                                <option value="0">Select Move</option>
+                                <option value="1">ATTACK 1</option>
+                                <option value="2">ATTACK 2</option>
+                            </select>
+                        </div>
+
+                        <div class="box">
+                            <label style="margin-top: 20px" for="Assist1">Select First Assist:</label>
+                            <select id="Assist1">
+                                <option value="0">Select Move</option>
+                                <option value="1">ATTACK 1</option>
+                                <option value="2">ATTACK 2</option>
+                            </select>
+                        </div>
+
+                        <div class="box">
+                            <label style="margin-top: 20px" for="Assist2">Select Second Assist:</label>
+                            <select id="Assist2">
+                                <option value="0">Select Move</option>
+                                <option value="1">ATTACK 1</option>
+                                <option value="2">ATTACK 2</option>
+                            </select>
+                        </div>    
+    
+    
+                    </div>
+
+                    <div class="right">
+                        <div class="box">
+                            <label for="output">Your Combo:</label>
+                            <div id="output" style="margin:6px 0;font-size: 16px;">
+                                ENTER YOUR COMBO 
+                            </div>
+                        </div>    
+                        
+                    </div>
+
+                </div>
+                
+            
         </div>
     
 </html>
