@@ -48,7 +48,7 @@ label {
     height: fit-content;
 }
 
-#chara{
+.chara{
     width: fit-content;
     height: fit-content;
     margin-left: auto;
@@ -57,13 +57,13 @@ label {
     background-color: coral;
 }
 
-#chara img{
+.chara img{
     width:100px;
     height:50px;
 }
 
-#chara img:hover{
-    opacity:0.7;
+.chara img:hover{
+    opacity:0.5;
 }
 
 #output img{

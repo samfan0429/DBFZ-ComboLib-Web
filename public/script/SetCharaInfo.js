@@ -6,6 +6,7 @@ function loadChara(){
     // console.log('monkey');
     if(currentChara!=null){
         currentChara.style.opacity='1.0';
+        // currentChara.hover();
         for (var i=moveList.length-1; i>0; i--) {
             moveList.remove(i);
         }
