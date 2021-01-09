@@ -4,9 +4,9 @@ var moveList=document.getElementById('moves');
 
 function loadChara(){
     // console.log('monkey');
+    // this.style.opacity='0.5';
     if(currentChara!=null){
         currentChara.style.opacity='1.0';
-        // currentChara.hover();
         for (var i=moveList.length-1; i>0; i--) {
             moveList.remove(i);
         }
@@ -37,10 +37,11 @@ async function addCharacters() {
     .then(data =>{
         var charaBox = document.getElementById('chara');
         for(var i = 0; i < data.length; i++) {
-            if(i>0 && i%6==0){
-                charaBox.innerHTML+='<br>';
+            if(i>0 && i%7==0){
+                charaBox.appendChild(document.createElement("BR"));
+                // charaBox.innerHTML+='<p>';
             }
-            var character = createCharaBox(data[i].name,data[i].img);
+            let character = createCharaBox(data[i].name,data[i].img);
             charaBox.appendChild(character);
             moveSets.set(data[i].name,data[i].attacks);
             character.addEventListener("click",loadChara);

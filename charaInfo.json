@@ -25,6 +25,176 @@
         "attacks": ["236S","214S"]
     },
     {
+        "name": "Cell",
+        "img":"cell.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Cooler",
+        "img":"cooler.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "18",
+        "img":"18.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Frieza",
+        "img":"frieza.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Ginyu",
+        "img":"ginyu.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Gogeta",
+        "img":"Gogeta.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Adult-Gohan",
+        "img":"gohadult.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Teen-Gohan",
+        "img":"gohateen.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Gotenks",
+        "img":"gotenks.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Goku-GT",
+        "img":"gtg.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Hit",
+        "img":"hit.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Janemba",
+        "img":"janemba.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Jiren",
+        "img":"jiren.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Kefla",
+        "img":"kefla.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Kid-Buu",
+        "img":"kid.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Krillin",
+        "img":"krillin.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Buu",
+        "img":"mista.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Napa",
+        "img":"napa.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Normal-Goku",
+        "img":"normg.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Normal-Vegeta",
+        "img":"normv.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Piccolo",
+        "img":"piccolo.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "17",
+        "img":"17.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "16",
+        "img":"16.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "BlueKu",
+        "img":"ssgssg.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "BlueVege",
+        "img":"ssgssv.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "SSJ-Goku",
+        "img":"ssjg.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "SSJ-Vegeta",
+        "img":"ssjv.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "21",
+        "img":"21.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "tien",
+        "img":"tien.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "trunks",
+        "img":"trunks.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Vegito",
+        "img":"vegito.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Videl",
+        "img":"videl.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Yamcha",
+        "img":"yamcha.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Zamasu",
+        "img":"zamasu.png",
+        "attacks": ["236S","214S"]
+    },
+    {
         "name": "UI-Goku",
         "img":"ui.png",
         "attacks": ["236S","214MM"]

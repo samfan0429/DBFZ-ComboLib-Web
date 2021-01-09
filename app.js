@@ -27,7 +27,7 @@ app.get('/write-combo', (req, res) => {
   // });
   // res.sendFile(__dirname + '/public/views/comboPost.html');
   res.json(data);
-  console.log(data);
+  // console.log(data);
   // console.log('oh crap it worked');
 })
 
