@@ -58,6 +58,15 @@ label {
 }
 
 #chara img{
-    width:67px;
-    height:38px;
+    width:100px;
+    height:50px;
+}
+
+#chara img:hover{
+    opacity:0.7;
+}
+
+#output img{
+    width:32px;
+    height:32px;
 }

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Bardock",
+        "img":"bardock.png",
+        "attacks": ["236S","214L"]
+    },
+    {
+        "name": "Beerus",
+        "img":"beerus.png",
+        "attacks": ["236S","214M"]
+    },
+    {
+        "name": "Goku-Black",
+        "img":"black.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "Broly",
+        "img":"broly.png",
+        "attacks": ["236S","214H"]
+    },
+    {
+        "name": "Broly-Super",
+        "img":"brolys.png",
+        "attacks": ["236S","214S"]
+    },
+    {
+        "name": "UI-Goku",
+        "img":"ui.png",
+        "attacks": ["236S","214MM"]
+    }
+]

@@ -3,10 +3,10 @@
     <head>
         <meta charset ="UTF-8">
         <meta name = "viewport" content ="width=device-width", initial-scale="1.0">
-        <title>DBFZ-Combo-Lib</title>
-    
+        <title>Combo-Scribe</title>
         <link rel="stylesheet", type="text/css", href="/style/common.css" />
         <link rel="stylesheet", type="text/css", href="/style/comboWriter.css" />
+        <!-- <script src="https://code.jquery.com/jquery-3.5.0.js"></script> -->
     </head>
 
     <body>
@@ -31,15 +31,7 @@
                 <h1 style="text-align: center;">Find or Write Combos</h1>
                 
                 <div id="chara" style="width: fit-content;height: fit-content;">
-                    <img src="/images/characters/ui.png">
-                    <img src="/images/characters/bardock.png">
-                    <img src="/images/characters/black.png">
-                    <img src="/images/characters/broly.png">
-                    <br>
-                    <img src="/images/inputVis/L.png">
-                    <img src="/images/inputVis/H.png">
-                    <img src="/images/inputVis/M.png">
-                    <img src="/images/inputVis/S.png">
+                    
                 </div>
 
                 <div class="wrapper">
@@ -55,8 +47,6 @@
                             <label style="margin-top: 20px" for="moves">Move Shortcut:</label>
                             <select id="moves">
                                 <option value="0">Select Move</option>
-                                <option value="1">ATTACK 1</option>
-                                <option value="2">ATTACK 2</option>
                             </select>
                         </div>
 
@@ -91,8 +81,23 @@
                         
                     </div>
 
+                    <div class="right">
+                        <div class="box" style="margin-left: 80px;">
+                            <label for="sub1">Assist 1:</label>
+                            <div id="sub1" style="margin:6px 0;font-size: 16px;">
+                                ENTER YOUR COMBO 
+                            </div>
+                            <label for="sub2" style="margin-top:50px">Assist 2:</label>
+                            <div id="sub2" style="margin:6px 0;font-size: 16px;">
+                                ENTER YOUR COMBO 
+                            </div>
+                        </div>    
+                        
+                    </div>
+
                 </div>
-            <script type="text/javascript" src="/script/comboPost.js"></script>    
+            <!-- <script src="/script/charaInfo.json"></script> -->
+            <script src="/script/comboInOut.js"></script>
+            <script src="/script/SetCharaInfo.js"></script>      
         </div>
-    
 </html>
