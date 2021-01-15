@@ -198,5 +198,15 @@
         "name": "UI-Goku",
         "img":"ui.png",
         "attacks": ["236S","214MM"]
+    },
+    {
+        "name": "Master-Roshi",
+        "img":"roshi.png",
+        "attacks": ["236S","214MM"]
+    },
+    {
+        "name": "Super-Baby2",
+        "img":"baby.png",
+        "attacks": ["236S","214MM"]
     }
 ]

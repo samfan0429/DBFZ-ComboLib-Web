@@ -37,7 +37,7 @@ async function addCharacters() {
     .then(data =>{
         var charaBox = document.getElementById('chara');
         for(var i = 0; i < data.length; i++) {
-            if(i>0 && i%7==0){
+            if(i>0 && i%8==0){
                 charaBox.appendChild(document.createElement("BR"));
                 // charaBox.innerHTML+='<p>';
             }

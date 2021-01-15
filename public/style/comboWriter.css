@@ -3,12 +3,7 @@
     display:flex;
 }
 
-.left{
-    height:fit-content;
-    width:50%;
-}
-
-.right{
+.holder{
     height:fit-content;
     width: 50%;
 }
@@ -71,4 +66,10 @@ label {
 #output img{
     width:32px;
     height:32px;
+}
+
+.assist{
+    width:145px;
+    height:85px;
+    background-color: coral;
 }
