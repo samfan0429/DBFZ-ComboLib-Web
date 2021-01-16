@@ -1,4 +1,3 @@
-var current = [];
 var keyText = document.getElementById("keyInput");
 var addButt = document.getElementById("input-add");
 var output = document.getElementById("output");

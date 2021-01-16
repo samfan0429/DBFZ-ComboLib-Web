@@ -69,7 +69,15 @@ label {
 }
 
 .assist{
-    width:145px;
-    height:85px;
+    width:120px;
+    height:70px;
     background-color: coral;
+    text-align: center;
+    vertical-align: auto;
+}
+
+.assist img{
+    margin-top: 10px;
+    width:100px;
+    height:50px;
 }

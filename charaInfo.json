@@ -55,12 +55,12 @@
         "attacks": ["236S","214S"]
     },
     {
-        "name": "Adult-Gohan",
+        "name": "Gohan-Adult",
         "img":"gohadult.png",
         "attacks": ["236S","214S"]
     },
     {
-        "name": "Teen-Gohan",
+        "name": "Gohan-Teen",
         "img":"gohateen.png",
         "attacks": ["236S","214S"]
     },
@@ -115,12 +115,12 @@
         "attacks": ["236S","214S"]
     },
     {
-        "name": "Normal-Goku",
+        "name": "Goku",
         "img":"normg.png",
         "attacks": ["236S","214S"]
     },
     {
-        "name": "Normal-Vegeta",
+        "name": "Vegeta",
         "img":"normv.png",
         "attacks": ["236S","214S"]
     },
@@ -140,12 +140,12 @@
         "attacks": ["236S","214S"]
     },
     {
-        "name": "BlueKu",
+        "name": "Goku-Blue",
         "img":"ssgssg.png",
         "attacks": ["236S","214S"]
     },
     {
-        "name": "BlueVege",
+        "name": "Vegeta-Blue",
         "img":"ssgssv.png",
         "attacks": ["236S","214S"]
     },
@@ -155,7 +155,7 @@
         "attacks": ["236S","214S"]
     },
     {
-        "name": "SSJ-Vegeta",
+        "name": "Vegeta-SSJ",
         "img":"ssjv.png",
         "attacks": ["236S","214S"]
     },
@@ -165,12 +165,12 @@
         "attacks": ["236S","214S"]
     },
     {
-        "name": "tien",
+        "name": "Tien",
         "img":"tien.png",
         "attacks": ["236S","214S"]
     },
     {
-        "name": "trunks",
+        "name": "Trunks",
         "img":"trunks.png",
         "attacks": ["236S","214S"]
     },
@@ -195,7 +195,7 @@
         "attacks": ["236S","214S"]
     },
     {
-        "name": "UI-Goku",
+        "name": "Goku-UI",
         "img":"ui.png",
         "attacks": ["236S","214MM"]
     },
