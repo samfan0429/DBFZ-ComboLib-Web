@@ -1,6 +1,5 @@
 var sub1 = document.getElementById('sub1');
 var sub2 = document.getElementById('sub2');
-var sub, imgChar, saveValue1, saveValue2;
 
 function addAssist(){
     // console.log(this.value);

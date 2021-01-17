@@ -5,6 +5,7 @@
         <meta name = "viewport" content ="width=device-width", initial-scale="1.0">
         <title>Combo-Scribe</title>
         <link rel="stylesheet", type="text/css", href="/style/common.css" />
+        <link rel="stylesheet", type="text/css", href="/style/comment.css" />
         <link rel="stylesheet", type="text/css", href="/style/comboWriter.css" />
         <script src="/script/postHeader.js"></script>
     </head>
@@ -38,8 +39,8 @@
                         <div class="box">
                             <label for="keyInput">Enter Your Input:</label>
                             <input type="text" id="keyInput" name="input"> <br>
-                            <input type="submit" id="input-add" value="Add Move"></input>
-                            <input type="submit" id="delete" value="Backspace"></input>
+                            <button type="submit" id="input-add">Add Move</button>
+                            <button type="submit" id="delete">Backspace</button>
                         </div>
 
                         <div class="box">
@@ -89,8 +90,19 @@
                     </div>
 
                 </div>
+
+                <div class="wrapper" style="padding: 20px 0;">
+                    <div class="holder" style="margin-left:100px;">
+                        <label for="comment">
+                            Comment/Explanations
+                        </label>
+                        <textarea id="comment"></textarea>
+                        <button id="send" type="submit">Submit</button>
+                    </div> 
+                </div>
             <script src="/script/comboInOut.js"></script>
             <script src="/script/SetCharaInfo.js"></script>
-            <script src="/script/assist.js"></script>      
+            <script src="/script/assist.js"></script>    
+            <script src="/script/submitRequest.js"></script>   
         </div>
 </html>

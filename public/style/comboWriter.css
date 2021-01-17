@@ -8,7 +8,7 @@
     width: 50%;
 }
 
-input[type="text"]{
+.box input[type="text"]{
     font-size: 16px;
     width:200px;
     border: 2px solid #aaa;
@@ -23,7 +23,7 @@ input[type="text"]:focus{
     box-shadow: 0 0 8px 0 dodgerblue;
 }
 
-input[type="submit"]{
+button[type="submit"]{
     text-align: center;
     height : 40px;
     width:80px;

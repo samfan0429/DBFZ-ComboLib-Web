@@ -48,7 +48,7 @@ function addAssists(name){
 }
 
 async function addCharacters() {
-    await fetch('/write-combo')
+    await fetch('/characters')
     .then(response => response.json())
     .then(data =>{
         var charaBox = document.getElementById('chara');
